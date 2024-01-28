@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato:wght@300&family=Lemon&family=Montserrat:wght@300&family=Poppins:wght@300;500&family=Roboto:ital,wght@0,300;0,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #3ea3f2;
+}
+h1{
+    font-size: 2rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    height: 60px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    margin-right:15%;
+}
+i{
+    color: grey;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 700px;
+    background:linear-gradient(to right, #353649, #f79fd9);
+    /* padding: 45px; */
+    padding: 5%;
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    height: 500px;
+    /* border: 1px solid black; */
+
+}
+.div{
+    width:300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 80px;
+    font-size: 1.2rem;
+     /* border: 1px solid black; */
+}
+.div1,.div3{
+    background:linear-gradient(#FFA447, #FFFC9B);
+  
+
+}
+.div2{
+    background:linear-gradient(#afd9fa, #f79fd9);
+}
+hr{
+    color: #FFFFFF;
+    width: 200px;
+    height: 2px;
+    border: none;
+    background-color:#FFFFFF;
+    
+}
+.btn{
+    color: #3ea3f2;
+    font-weight: 900;
+    font-size: 1.02rem;
+    background-color: #FFFFFF;
+    padding:10px 30px;
+    margin-top:25px;
+    border-radius:20px;
+}
+.btn:hover{
+    background-color:rgba(0, 0, 0, 0.081);
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    height: 100px;
+    gap: 10px;
+}
+
+
+@media (max-width: 700px) {
+    .header{
+        font-size: 0.5rem;
+    }
+
+    .divs {
+        flex-direction: column;
+        height: auto;
+    }
+    .div{
+       width: 50%;
+       padding-top:20px;
+       height: 185px;
+       margin-top: 10px;
+       font-size: 0.9rem;
+    }
+    hr{
+        width: 50%;
+        margin-top: -10px;
+    }
+
+    .btn{
+        margin-top: 7px;
+        font-size: 0.6rem;
+    }
+    .main{
+        padding: 10px;
+
+    }
+    footer{
+        height: 30px;
+        font-size: 0.7rem;
+    }
+}
